@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<title>Contact Us</title>
+</head>
+
+<body style="background-image: url(images/background/aboutbg.jpg); background-position: center bottom; 
+																   background-repeat: no-repeat;
+																   background-size:contain;
+																   height: 100%;
+																   background-color: #dae6e8">
+
+	<!-- menu -->
+	<div class="header">
+		<div class="header-logo">
+			<img src="images/logo/logo2.png" style="width: 42%; margin-top: -6px;">
+	    </div>
+	  <div class="header-navbar">
+		 <div class="header-menu">
+			 <ul>
+				 <li><a href="index.html">Home</a></li>
+				 <li><a href="about.html">About Us</a></li>
+				 <li><a href="gallery.html">Gallery</a></li>
+				 <li><a href="contact.html">Contact Us</a></li>
+			 </ul>
+		</div>
+	 </div>
+
+	</div>
+
+	<div>
+		<h3 class="about-header">TAKE AWAY COFFEE & CACTUS</h3>
+	</div>	
+
+    <div class="form">
+		<h3>Can you share your complaints and suggestions with us?</h3>
+		<div class="mail">
+			<h1>MAIL US!</h1>
+		</div>
+	</div>
+
+	<!-- form -->
+
+	<form action="action_page.php" method="post">
+		<div class="imgcontainer">
+		  <img src="images/contact/form.jpg" alt="Avatar" class="avatar" style="width: 15%;">
+		</div>
+	  
+		<div class="form-container">
+		  <label for="uname"><b style="color: rgb(45, 105, 45);">Name</b></label>
+		  <input type="text" placeholder="Enter Name" name="uname" required>
+	  
+		  <label for="psw"><b style="color: rgb(45, 105, 45);">Mail Address</b></label>
+		  <input type="password" placeholder="Enter Mail Address" name="psw" required>
+		  <label for="psw"><b style="color: rgb(45, 105, 45);">Your Message</b></label>
+		  <div class="col-75">
+			<textarea id="subject" name="subject" placeholder="Your opinion is important to us..." style="height:200px"></textarea>
+		  </div>
+		  	<div class="col-75">
+				<label for="psw"><b style="color: rgb(45, 105, 45);">Your Message Content</b></label>
+			<select id="reason" name="reason">
+			  <option value="appreciation">Appreciation</option>
+			  <option value="suggestion">Suggestion</option>
+			  <option value="complaint">Complaint</option>
+			</select>
+		  </div>
+		  <button type="button" onclick='document.getElementById("mesaj").innerHTML="Your Message was send!!!"'>SEND</button>
+		</div>
+		<h2 id="mesaj" style="text-align: center; color: rgb(45, 105, 45);"></h2>
+	  
+	  </form>
+
+	<div class="left">
+		<h3>Our Location</h3>
+		<div class="visit">
+			<h1>VISIT US!</h1>
+			<p style="margin: -215px; margin-top: 55px;">51 Great Russell St, London WC1B 3BA, United Kingdom</p>
+		</div>
+	</div>
+
+	<div class="right">
+		<img src="images/contact/location.jpg">
+	</div>
+
+ 	
+	<!-- footer -->
+
+	<footer id="footer">
+		<div class="footer">
+			<div class="footer-content">
+				<div class="page-title">
+					<h2>FOLLOW US</h2>
+				</div>
+				<div class="footer-copyright">
+					<nav class="footer-social">
+			
+						<a href="https://www.google.com.tr/?hl=tr" target ="_blank"><i class="fa">&#xf1a0;</i></a>
+						<a href="https://www.instagram.com" target ="_blank"><i class="fa">&#xf16d;</i></a>
+						<a href="https://twitter.com/?lang=tr" target ="_blank"><i class="fa">&#xf099;</i></a>
+								
+						
+					</nav>
+				</div>
+
+			</div>
+
+		</div>
+	</footer>
+
+	
+
+
+<script src="jss/style.js"></script>
+</body>
+</html>
